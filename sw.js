@@ -18,7 +18,7 @@
  * худший вид ошибки — воспроизводится только у одного человека.
  */
 
-const ВЕРСИЯ = "florsbor-v1";
+const ВЕРСИЯ = "florsbor-v2";
 const ОФЛАЙН = new Request("./", { cache: "reload" });
 
 self.addEventListener("install", (e) => {
